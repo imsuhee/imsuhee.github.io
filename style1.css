@@ -1,0 +1,49 @@
+*{	margin: 10px;
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	height: 130px;				
+}
+
+#top{
+	float: right;
+	margin: 30px 20px 0 0;	
+}
+
+section{
+	float: left;
+	margin-left: 80px;	
+}
+
+aside{
+	float: right;
+	margin-top: 50px;
+	margin-right: 80px;	
+}
+
+footer{
+margin-top: 80px;	
+}
+
+#ri{
+	float: right;
+	margin-right: 80px;
+}
+
+#le{
+	float: left;
+	margin-left: 80px;
+}
+
+hr{
+	border-bottom: 1px #cccccc; 
+}
