@@ -29,17 +29,15 @@ nav{
 	width: 1300px;
 	height: 70px;
 	margin-top: 10px;
-	
-
 }
-
-
 nav li{
 	display: inline-block;	/*네비에 리스트 속성사용*/
 	margin: 20px 30px;
 }
-
-
+	nav li a:hover {
+	background-color: #FFBEC3;	/*마우스 위치시 색상 변경*/
+	color: white;
+} 	
 section{
 	float: left;
 	margin-top: 10px;
@@ -140,7 +138,7 @@ footer{
 
 
 	<div id="top">
-	로그인 | 회원가입 |<a href="chap8.html">마이페이지</a>| 고객센터	<!-- 오른쪽상단-->
+	로그인 | 회원가입 | 마이페이지 | 고객센터	<!-- 오른쪽상단-->
 	</div>
 
 </header>
@@ -148,7 +146,7 @@ footer{
 
 <nav>
 <ul>
-	<a href="main.html"><li> 감염병 </li></a>
+	<li><a href="main.html"> 감염병 </a></li>
 	<li> 건강정책 </li>
 	<li> 정책정보 </li>
 	<li> 연구개발 </li>
@@ -156,7 +154,7 @@ footer{
 	<li> 간행물.통계 </li>
 	<li> 민원.정보공개 </li>
 	<li> 기관소개 </li>
-	<li> 사업별홈페이지 </li>
+	<li><a href="chap8.html"> 사업별홈페이지 </a></li>
 </ul>
 
 </nav>
