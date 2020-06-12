@@ -1,0 +1,184 @@
+
+header{
+	background-color: #FFF; /*상단 이미지*/
+	background-image: url(main.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 200px;
+
+}
+
+h1{
+	color: #F9AC1A;
+	text-align: center;
+	font-size: 40px;       /*Lim Su Hee 설정 값*/
+	font-family: Ink Free;
+
+}
+.h1-1{
+	color: #F9AC1A;
+	text-align: center;
+	font-size: 25px;		/*let me introduce myself 설정값*/
+	font-family: Ink Free;
+}
+ul{
+	
+   background-color: #F9AC1A; 
+   list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+
+li{
+	 float: left;
+	 margin-left:300px;
+									/*상단바*/
+}
+li a{
+	display: block;
+	background-color: #F9AC1A;
+	color: #fff;
+	padding: 8px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+li a:hover {
+	background-color: #F8813C;	/*마우스 위치시 색상 변경*/
+	color: white;
+}
+
+
+#num1{
+	display: inline-block;
+	background-color: #fff;
+	width: 700px;
+	height: 300px;
+	float: left;				/*인적사항 내용*/
+	margin-left: 50px;
+	border: solid 1px #F9AC1A;
+	padding: 10px;
+}
+.box1{
+	width: 150px;
+	height: 30px;
+	background-color: #F9AC1A;
+	color: #fff;
+	text-align: center;			/*인적사항 상자*/
+	border: solid 1px #F9AC1A;
+	margin-top: 50px;
+	margin-left: 50px;
+	line-height : 180%;
+}
+
+#num2{
+	display: inline-block;
+	background-color: #fff;
+	width: 700px;
+	height: 300px;
+	float: right;				/*강점 내용*/
+	margin-right:50px;
+	border: solid 1px #F9AC1A;
+	line-height : 200%;
+	text-align: justify;
+	padding: 10px;
+	
+}
+
+.box2{
+	width: 150px;
+	height: 30px;
+	background-color: #F9AC1A;
+	color: #fff;
+	text-align: center;
+	border: solid 1px #F9AC1A;
+	line-height : 180%;
+	float: right;
+	margin-right: 620px;		/*강점 상자*/
+	margin-top: 50px;
+
+}
+
+#num3{
+	display: inline-block;
+	background-color: #fff;
+	width: 700px;
+	height: 300px;		/*취미 내용*/
+	float: left;	
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	padding: 10px;
+	line-height : 200%;
+	border: solid 1px #F9AC1A;
+	text-align: justify;	
+}
+.box3{
+	width: 150px;
+	height: 30px;
+	background-color: #F9AC1A;
+	color: #fff;
+	text-align: center;       /*취미 상자*/
+	border: solid 1px #F9AC1A;
+	margin-top: 400px;
+	margin-left: 50px;
+	line-height : 180%;
+}
+
+#num4{
+	display: inline-block;
+	background-color: #fff;
+	width: 700px;
+	height: 300px;					/*꿈 내용*/
+	float: right;
+	margin-right:50px;
+	margin-bottom: 50px;
+	line-height : 200%;
+	border: solid 1px #F9AC1A;
+	padding: 10px;
+	text-align: justify;
+	
+}
+
+.box4{
+	width: 150px;
+	height: 30px;
+	background-color: #F9AC1A;
+	color: #fff;        			/*꿈 상자*/
+	text-align: center;
+	border: solid 1px #F9AC1A;
+	margin-top: 78px;
+	margin-right: 620px;
+	line-height : 180%;
+	float: right;
+}
+
+table{
+	border-top: 2px solid #585858;
+	border-bottom: 2px solid #585858;
+	border-collapse: collapse;				/*표*/
+	align-content: center;
+	margin-top: 20px;
+	margin-left:10px;
+	width: 430px;
+	height: 250px;
+	float: left;
+	
+}
+
+td{
+	border-bottom: 1px solid #d3d3d3;
+	width: 400px;
+	height: 30px;
+	line-height : 250%;
+
+}
+tr:hover{
+	background-color:#ffe4b5;
+}
+
+
+
